@@ -2,11 +2,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #b970c8;
+     background-color: #9b8b8b; /* Cambia il colore dello sfondo */
+     color: #0a1d3c; /* Cambia il colore del testo */
+      
+      
 }
-
+.logo {
+    font-size: 2rem; /* Aumenta la dimensione del carattere */
+  }
+  
 h1, h2, h3, h4, h5, h6 {
-    color: #020000;
+    color: #080000;
 }
 
 p {
@@ -17,4 +23,38 @@ p {
     width: 80%;
     margin: auto;
     overflow: hidden;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: #c1c1a1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(236, 234, 234, 0.1);
+    
+    
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+header, footer {
+    padding: 1em;
+    background-color: #863535;
+    text-align: center;
 }
